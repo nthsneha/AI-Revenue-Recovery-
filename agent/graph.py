@@ -19,6 +19,7 @@ class AgentState(TypedDict):
     metadata: dict
     revenue_loss_mode: str
     is_viable: bool
+    recovery_probability: float
     messages: Annotated[Sequence[BaseMessage], "add_messages"]
 
 # -----------------
@@ -67,40 +68,118 @@ def triage_node(state: AgentState):
 
 
 def viability_node(state: AgentState):
-    """Phase 2: Use XGBoost to determine if recovery is viable."""
+    """
+    Phase 2: Combined recovery probability from current event state + user history.
+    Uses the trained XGBoost model on joined features.
+    Returns both is_viable (bool) and recovery_probability (float).
+    """
     print("--- [NODE: Viability Gate] ---")
-    
-    # Attempt to load the model
+
+    meta = state.get("metadata", {})
+    mode = state.get("revenue_loss_mode", "")
+    user_id = meta.get("user_id", "")
+
+    recovery_prob = 0.0
+    is_viable = False
+
     try:
+        # Load the trained model
         with open("models/viability_model.pkl", "rb") as f:
             model_data = pickle.load(f)
             model = model_data['model']
             feature_cols = model_data['feature_columns']
-            
-            # Construct a dummy dataframe row for inference based on metadata
-            import pandas as pd
-            row_dict = state["metadata"].copy()
-            row_dict['revenue_loss_mode'] = state["revenue_loss_mode"]
-            
-            # Note: For a real pipeline, we'd correctly dummify this row to match feature_cols.
-            # To keep the hackathon demo robust even if dummification fails on a single row, 
-            # we will use a fallback heuristic if prediction fails.
-            is_viable = True
+
+        # Load user history
+        import pandas as pd
+        try:
+            history_df = pd.read_csv("dataset/user_history.csv")
+            history_df['payment_reliability'] = (
+                history_df['successful_payments'] / history_df['total_orders'].clip(lower=1)
+            )
+            user_row = history_df[history_df['user_id'] == user_id]
+        except FileNotFoundError:
+            user_row = pd.DataFrame()
+
+        # Build the feature row from triage metadata
+        row = {
+            'amount_at_risk': meta.get('amount_at_risk', 500.0),
+            'time_since_last_action': meta.get('time_since_last_action', 30),
+            'user_intent_score': meta.get('user_intent_score', 0.5),
+            'is_valuable_customer': False,
+            'revenue_loss_mode': mode,
+            'device_type': meta.get('device_type', 'Unknown'),
+            'time_of_day': 'Morning',  # default; could be extracted from log timestamp
+        }
+
+        # Merge in user history features
+        if not user_row.empty:
+            h = user_row.iloc[0]
+            row['total_orders'] = h.get('total_orders', 0)
+            row['successful_payments'] = h.get('successful_payments', 0)
+            row['failed_payments'] = h.get('failed_payments', 0)
+            row['avg_order_value'] = h.get('avg_order_value', 500.0)
+            row['last_successful_payment_days'] = h.get('last_successful_payment_days', 180)
+            row['churn_risk_score'] = h.get('churn_risk_score', 0.5)
+            row['payment_reliability'] = h.get('payment_reliability', 0.5)
+            row['preferred_payment_method'] = h.get('preferred_payment_method', 'Unknown')
+            row['preferred_channel'] = h.get('preferred_channel', 'Unknown')
+            row['is_subscribed'] = h.get('is_subscribed', False)
+            print(f"User history found: {int(row['total_orders'])} orders, "
+                  f"reliability={row['payment_reliability']:.2f}, churn={row['churn_risk_score']:.2f}")
+        else:
+            # Neutral defaults for unknown user
+            row['total_orders'] = 0
+            row['successful_payments'] = 0
+            row['failed_payments'] = 0
+            row['avg_order_value'] = 500.0
+            row['last_successful_payment_days'] = 180
+            row['churn_risk_score'] = 0.5
+            row['payment_reliability'] = 0.5
+            row['preferred_payment_method'] = 'Unknown'
+            row['preferred_channel'] = 'Unknown'
+            row['is_subscribed'] = False
+            print(f"No history found for {user_id}, using neutral defaults")
+
+        # One-hot encode to match the trained model's feature set
+        row_df = pd.DataFrame([row])
+        categorical_cols = [
+            'revenue_loss_mode', 'device_type', 'time_of_day',
+            'preferred_payment_method', 'preferred_channel'
+        ]
+        row_df = pd.get_dummies(row_df, columns=categorical_cols)
+
+        # Convert booleans to int
+        bool_cols = row_df.select_dtypes(include=['bool']).columns
+        row_df[bool_cols] = row_df[bool_cols].astype(int)
+
+        # Align columns to the trained model (add missing as 0, drop extras)
+        for col in feature_cols:
+            if col not in row_df.columns:
+                row_df[col] = 0
+        row_df = row_df[feature_cols]
+
+        # Predict recovery probability
+        recovery_prob = float(model.predict_proba(row_df)[:, 1][0])
+        is_viable = recovery_prob >= 0.3  # threshold for attempting recovery
+
+        print(f"Combined Recovery Probability: {recovery_prob:.3f}")
+
     except Exception as e:
-        # Fallback to heuristic if model is missing or fails to load/predict
-        print("Model not found or error loading, falling back to heuristic viability check.")
-        meta = state.get("metadata", {})
+        # Fallback heuristic if model/data isn't available
+        print(f"Model unavailable ({e}), using heuristic fallback")
         intent = meta.get("user_intent_score", 0.5)
         amount = meta.get("amount_at_risk", 0.0)
-        
-        # Simple rule: if intent is very low and amount is small, don't bother.
-        if intent < 0.2 and amount < 50:
-            is_viable = False
-        else:
-            is_viable = True
 
-    print(f"Is Recovery Viable? {is_viable}")
-    return {"is_viable": is_viable}
+        recovery_prob = intent * 0.5
+        if amount > 100:
+            recovery_prob += 0.2
+        if amount < 50 and intent < 0.2:
+            recovery_prob = 0.05
+
+        is_viable = recovery_prob >= 0.3
+
+    print(f"Is Recovery Viable? {is_viable} (probability: {recovery_prob:.3f})")
+    return {"is_viable": is_viable, "recovery_probability": recovery_prob}
 
 
 # Bind tools to LLM for Phase 3

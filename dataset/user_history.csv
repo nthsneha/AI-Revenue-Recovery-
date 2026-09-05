@@ -1,301 +1,301 @@
 user_id,total_orders,successful_payments,failed_payments,avg_order_value,preferred_payment_method,preferred_channel,last_successful_payment_days,churn_risk_score,is_subscribed
-user_9958,115,70,45,3638.06,Debit Card,WhatsApp,178,0.48,False
-user_7371,50,48,2,1461.69,Credit Card,WhatsApp,164,0.39,False
-user_2527,75,43,32,1224.14,UPI,Email,260,0.52,False
-user_2451,118,88,30,3123.41,Credit Card,Email,60,0.25,False
-user_1330,13,11,2,512.81,UPI,Push Notification,160,0.33,False
-user_6521,66,55,11,2532.39,Debit Card,Email,117,0.25,False
-user_9705,9,4,5,801.5,Wallet,WhatsApp,228,0.5,False
-user_8564,53,49,4,3259.7,Credit Card,SMS,140,0.31,False
-user_7197,78,51,27,774.55,Debit Card,WhatsApp,133,0.32,False
-user_2577,76,53,23,3598.51,Debit Card,Push Notification,188,0.47,False
-user_4803,109,58,51,2254.88,UPI,Push Notification,241,0.6,False
-user_1790,34,22,12,4161.07,UPI,SMS,106,0.31,True
-user_9203,8,7,1,4827.4,Wallet,SMS,286,0.53,False
-user_7649,0,0,0,1267.42,UPI,Email,148,0.84,False
-user_9430,16,13,3,4073.46,Wallet,WhatsApp,294,0.44,False
-user_2680,50,27,23,1175.46,Debit Card,SMS,361,0.7,False
-user_8889,81,80,1,3299.96,Debit Card,WhatsApp,259,0.31,True
-user_9613,64,36,28,2118.0,UPI,SMS,115,0.33,False
-user_1244,43,30,13,3992.04,Net Banking,Email,201,0.43,False
-user_8845,27,17,10,444.05,Net Banking,Email,170,0.48,False
-user_9067,8,4,4,1041.91,Debit Card,Email,147,0.52,True
-user_7772,117,114,3,645.51,Credit Card,Push Notification,225,0.36,False
-user_3172,54,29,25,3482.67,UPI,Email,335,0.59,False
-user_6672,74,73,1,3403.93,Credit Card,Push Notification,226,0.41,True
-user_4199,95,88,7,4991.28,Net Banking,WhatsApp,209,0.45,False
-user_1810,89,77,12,3427.1,Credit Card,Email,289,0.53,False
-user_9935,84,60,24,976.95,Debit Card,WhatsApp,265,0.58,False
-user_1436,114,113,1,4237.92,Debit Card,WhatsApp,175,0.21,False
-user_8428,117,91,26,2746.6,UPI,SMS,269,0.39,False
-user_6138,1,0,1,4162.77,Credit Card,WhatsApp,208,0.69,False
-user_7106,102,69,33,4988.97,Credit Card,Email,107,0.29,False
-user_7523,48,35,13,1447.67,Net Banking,WhatsApp,153,0.48,False
-user_1167,72,45,27,4251.61,UPI,WhatsApp,301,0.58,False
-user_4331,31,24,7,3063.85,UPI,SMS,104,0.35,True
-user_8676,48,38,10,1035.33,Net Banking,WhatsApp,48,0.26,False
-user_6922,91,71,20,4917.11,UPI,Email,47,0.31,False
-user_6686,70,37,33,4152.93,Debit Card,SMS,231,0.47,False
-user_9190,65,64,1,4688.48,Credit Card,SMS,245,0.32,False
-user_9273,16,10,6,2006.92,UPI,WhatsApp,305,0.66,False
-user_9019,106,61,45,4139.09,UPI,Email,331,0.67,True
-user_4218,26,17,9,4587.02,Wallet,Email,100,0.32,False
-user_2300,107,78,29,1180.44,Credit Card,SMS,74,0.25,False
-user_9137,38,24,14,1135.21,Credit Card,Email,10,0.25,True
-user_5647,24,21,3,657.0,Credit Card,WhatsApp,173,0.41,False
-user_6224,54,36,18,4210.96,UPI,WhatsApp,247,0.48,False
-user_1836,60,48,12,4592.03,UPI,WhatsApp,37,0.29,False
-user_5818,78,41,37,597.29,Credit Card,WhatsApp,172,0.45,False
-user_3888,101,72,29,3662.89,Wallet,Email,149,0.33,False
-user_6603,80,65,15,2703.25,Debit Card,WhatsApp,278,0.54,False
-user_9820,103,85,18,387.04,UPI,Email,301,0.56,False
-user_2811,42,21,21,1256.03,UPI,WhatsApp,277,0.64,False
-user_5281,52,29,23,2276.69,Net Banking,Push Notification,25,0.4,False
-user_5143,63,62,1,353.85,Credit Card,Email,364,0.53,False
-user_4631,51,50,1,4582.42,UPI,WhatsApp,93,0.17,False
-user_5294,100,92,8,4929.11,UPI,SMS,214,0.37,True
-user_7572,73,55,18,3751.03,UPI,WhatsApp,208,0.48,False
-user_5390,112,108,4,3075.99,Wallet,WhatsApp,86,0.19,False
-user_7635,25,20,5,69.25,Debit Card,Email,141,0.24,False
-user_8600,58,40,18,2485.3,Credit Card,Email,171,0.47,False
-user_1877,116,105,11,1972.66,Net Banking,Email,95,0.3,False
-user_3678,85,73,12,2949.95,UPI,WhatsApp,160,0.42,False
-user_2696,89,68,21,1998.07,Debit Card,Email,163,0.28,False
-user_4806,18,17,1,4490.07,Credit Card,WhatsApp,0,0.03,False
-user_4385,9,4,5,1170.54,Credit Card,Email,19,0.4,False
-user_4714,114,102,12,3672.94,UPI,Email,347,0.5,False
-user_5197,37,34,3,3050.31,Debit Card,Email,340,0.46,False
-user_1696,16,13,3,4856.93,UPI,WhatsApp,267,0.49,True
-user_3482,12,8,4,1005.06,Debit Card,WhatsApp,326,0.55,False
-user_9379,1,0,1,4402.43,UPI,WhatsApp,219,0.78,False
-user_2558,43,24,19,820.21,Credit Card,Email,112,0.36,False
-user_9982,62,48,14,3282.83,Wallet,WhatsApp,140,0.41,False
-user_1127,116,62,54,2560.78,UPI,Email,296,0.53,False
-user_6042,69,61,8,1296.91,Debit Card,Email,51,0.18,False
-user_2841,37,28,9,3601.79,UPI,Push Notification,327,0.62,False
-user_5484,78,57,21,533.15,UPI,Email,46,0.19,False
-user_3183,118,80,38,3451.52,Net Banking,WhatsApp,31,0.26,False
-user_3117,107,69,38,1274.6,Wallet,WhatsApp,267,0.52,False
-user_2496,119,113,6,1992.07,Wallet,Push Notification,223,0.28,False
-user_5229,53,32,21,2614.37,Debit Card,Push Notification,58,0.34,False
-user_5142,106,69,37,3135.81,Debit Card,Push Notification,37,0.2,False
-user_6064,29,28,1,2979.73,UPI,SMS,11,0.09,False
-user_1408,101,62,39,1466.7,Net Banking,Email,59,0.36,False
-user_2394,68,59,9,208.68,Wallet,SMS,124,0.21,True
-user_9987,80,58,22,3359.23,UPI,WhatsApp,249,0.53,False
-user_5672,113,106,7,499.94,UPI,Email,363,0.61,False
-user_3823,39,38,1,386.08,UPI,WhatsApp,66,0.21,False
-user_9870,95,83,12,2568.3,Credit Card,SMS,135,0.32,True
-user_6753,91,90,1,1403.87,Credit Card,Push Notification,300,0.38,True
-user_8139,15,10,5,2299.05,Credit Card,WhatsApp,160,0.37,False
-user_9657,87,65,22,779.41,Credit Card,SMS,244,0.38,False
-user_6125,1,0,1,3618.03,Credit Card,Push Notification,244,0.71,False
-user_7278,27,25,2,3137.35,UPI,WhatsApp,166,0.37,True
-user_2231,65,39,26,2620.32,UPI,Email,178,0.5,False
-user_2935,9,6,3,1899.62,Debit Card,SMS,76,0.3,False
-user_4059,45,34,11,2305.74,Debit Card,Email,26,0.28,False
-user_5518,112,92,20,1249.19,UPI,WhatsApp,151,0.43,False
-user_9599,78,67,11,4338.56,UPI,Push Notification,239,0.41,True
-user_9648,80,43,37,1890.8,UPI,Push Notification,330,0.74,False
-user_5093,44,25,19,1657.92,UPI,Email,298,0.59,False
-user_5415,72,49,23,63.24,Credit Card,WhatsApp,275,0.45,False
-user_4406,31,21,10,3382.0,Net Banking,SMS,208,0.37,False
-user_1384,56,39,17,439.08,Net Banking,SMS,209,0.42,False
-user_3989,58,56,2,4849.26,UPI,Email,299,0.47,True
-user_3999,41,40,1,2289.89,Net Banking,Push Notification,291,0.42,False
-user_7954,67,56,11,2670.33,Credit Card,Email,343,0.57,False
-user_5412,43,33,10,3544.21,Net Banking,WhatsApp,73,0.34,False
-user_1209,88,48,40,2011.34,UPI,Email,57,0.25,False
-user_6038,102,61,41,895.61,Credit Card,WhatsApp,60,0.31,False
-user_1040,68,58,10,4560.59,Debit Card,SMS,276,0.54,False
-user_2752,35,33,2,4751.07,Credit Card,Email,215,0.33,False
-user_4039,40,22,18,1920.51,UPI,Email,215,0.53,False
-user_6175,10,6,4,1528.88,Credit Card,Push Notification,17,0.31,False
-user_9879,69,40,29,155.64,Credit Card,Email,253,0.62,False
-user_9074,17,12,5,311.58,Wallet,WhatsApp,8,0.15,False
-user_4038,11,7,4,2805.06,Credit Card,SMS,328,0.62,False
-user_6559,104,97,7,2846.28,Debit Card,SMS,364,0.62,False
-user_3300,28,18,10,371.1,Debit Card,SMS,46,0.27,False
-user_6831,48,24,24,3811.54,UPI,Push Notification,193,0.5,False
-user_7410,96,65,31,1714.42,Credit Card,Email,244,0.5,False
-user_4177,116,95,21,4974.92,UPI,WhatsApp,282,0.4,False
-user_3651,52,37,15,3167.82,UPI,WhatsApp,7,0.19,False
-user_6771,93,68,25,3837.99,Credit Card,WhatsApp,362,0.57,False
-user_2901,73,44,29,4031.53,Debit Card,WhatsApp,9,0.21,False
-user_3212,66,63,3,4761.02,Net Banking,Push Notification,58,0.25,False
-user_8337,9,8,1,3119.32,UPI,Push Notification,215,0.31,False
-user_6463,53,47,6,1485.2,UPI,WhatsApp,214,0.44,False
-user_4974,1,0,1,3499.62,Debit Card,WhatsApp,267,0.78,False
-user_6068,67,47,20,719.34,Net Banking,WhatsApp,176,0.4,False
-user_9369,101,77,24,1915.01,Wallet,WhatsApp,199,0.51,False
-user_6281,109,54,55,793.93,Wallet,WhatsApp,130,0.42,False
-user_5835,93,86,7,1115.58,Debit Card,SMS,208,0.32,True
-user_4304,78,75,3,272.59,UPI,Push Notification,172,0.36,False
-user_5975,57,41,16,4501.11,UPI,WhatsApp,351,0.54,False
-user_3530,90,72,18,3694.95,Credit Card,WhatsApp,43,0.21,False
-user_5674,68,37,31,2174.9,UPI,SMS,123,0.35,False
-user_2960,36,34,2,3305.09,UPI,SMS,183,0.26,False
-user_8177,82,59,23,3180.07,UPI,SMS,317,0.48,False
-user_9330,76,66,10,3601.81,Net Banking,WhatsApp,104,0.34,True
-user_4605,4,2,2,4383.59,UPI,Email,198,0.5,False
-user_4970,84,49,35,4846.98,UPI,WhatsApp,129,0.31,False
-user_4228,71,60,11,2446.79,Net Banking,WhatsApp,317,0.42,False
-user_6015,43,34,9,3431.09,Credit Card,Email,291,0.43,True
-user_1787,107,54,53,822.35,UPI,Push Notification,208,0.44,False
-user_6485,32,28,4,1000.98,Credit Card,Push Notification,323,0.48,False
-user_7189,101,78,23,4334.44,Net Banking,WhatsApp,90,0.23,False
-user_4412,68,44,24,1678.67,Credit Card,WhatsApp,118,0.32,False
-user_7968,44,26,18,3077.55,Credit Card,WhatsApp,325,0.62,False
-user_2303,114,99,15,170.89,Credit Card,Email,339,0.43,False
-user_8309,81,71,10,4007.38,Wallet,Email,197,0.36,True
-user_7654,17,8,9,1174.99,Debit Card,WhatsApp,50,0.46,False
-user_9888,76,57,19,4995.58,Credit Card,Email,213,0.46,False
-user_5877,30,22,8,3072.21,UPI,WhatsApp,123,0.43,False
-user_6847,85,45,40,1401.55,UPI,SMS,180,0.49,False
-user_4461,70,53,17,972.28,UPI,Push Notification,39,0.29,False
-user_1552,64,59,5,1663.99,UPI,Email,203,0.35,False
-user_9860,95,85,10,1530.07,UPI,Email,146,0.37,True
-user_4691,31,21,10,4597.44,Debit Card,WhatsApp,300,0.65,False
-user_6821,57,56,1,365.39,Credit Card,WhatsApp,249,0.35,False
-user_7596,113,74,39,4208.36,Net Banking,Email,179,0.48,False
-user_2983,82,72,10,3779.97,UPI,Push Notification,175,0.32,False
-user_9736,117,97,20,1260.58,Debit Card,Email,233,0.51,False
-user_1730,85,59,26,2369.25,Debit Card,Push Notification,228,0.5,False
-user_1369,19,9,10,1907.46,UPI,Email,108,0.39,False
-user_6891,0,0,0,2948.22,Credit Card,SMS,283,0.78,False
-user_9447,116,84,32,1091.62,Credit Card,WhatsApp,158,0.39,False
-user_2556,52,46,6,358.8,UPI,WhatsApp,356,0.52,False
-user_5118,120,95,25,272.83,Debit Card,Email,58,0.29,True
-user_7470,63,41,22,4158.24,UPI,WhatsApp,152,0.49,False
-user_2503,4,3,1,1773.06,Debit Card,WhatsApp,242,0.5,False
-user_2630,25,14,11,2031.75,Debit Card,SMS,23,0.36,True
-user_1667,38,24,14,2953.49,UPI,Push Notification,188,0.39,False
-user_6259,2,1,1,4871.04,Net Banking,WhatsApp,290,0.53,False
-user_9603,106,96,10,3896.54,Credit Card,SMS,145,0.31,False
-user_8842,99,54,45,1973.3,Wallet,SMS,64,0.38,False
-user_8431,19,18,1,3985.76,Wallet,WhatsApp,108,0.23,False
-user_3670,100,84,16,3197.78,Credit Card,Email,353,0.51,True
-user_5204,65,61,4,2597.84,UPI,WhatsApp,277,0.46,False
-user_5137,41,28,13,1151.91,Net Banking,Email,41,0.25,False
-user_2931,76,45,31,100.99,Debit Card,Email,347,0.74,False
-user_6310,32,31,1,2304.38,Debit Card,Push Notification,213,0.25,False
-user_6631,108,68,40,4887.34,Debit Card,SMS,338,0.53,False
-user_3519,34,17,17,1026.31,UPI,Email,95,0.44,False
-user_6298,46,28,18,2441.16,Net Banking,SMS,11,0.35,True
-user_1631,51,49,2,1464.88,Debit Card,WhatsApp,69,0.2,False
-user_5242,61,39,22,167.88,Net Banking,WhatsApp,217,0.58,False
-user_7075,112,104,8,3504.23,UPI,Email,121,0.19,False
-user_4837,110,93,17,4213.89,UPI,WhatsApp,317,0.52,False
-user_5993,63,31,32,2987.87,Credit Card,Email,284,0.58,False
-user_7402,85,75,10,2082.01,Credit Card,WhatsApp,298,0.55,False
-user_2786,17,16,1,2803.84,Credit Card,Push Notification,77,0.28,False
-user_6168,116,61,55,4531.76,Credit Card,Email,105,0.36,False
-user_2669,49,40,9,4657.15,Credit Card,WhatsApp,323,0.62,True
-user_2333,79,60,19,3350.94,Debit Card,SMS,69,0.29,True
-user_8541,56,31,25,1441.7,Credit Card,WhatsApp,12,0.25,True
-user_9528,28,14,14,3482.37,Net Banking,WhatsApp,5,0.4,False
-user_4711,14,7,7,2109.37,UPI,Email,276,0.6,False
-user_1783,85,77,8,518.42,Wallet,Push Notification,75,0.12,False
-user_4872,54,44,10,411.1,Credit Card,Email,220,0.37,False
-user_2721,19,13,6,4805.79,UPI,Email,130,0.46,False
-user_5635,37,19,18,738.32,UPI,Email,6,0.36,False
-user_8704,5,3,2,1054.25,Debit Card,WhatsApp,56,0.3,False
-user_2830,90,46,44,3240.66,Net Banking,WhatsApp,231,0.61,True
-user_9995,79,64,15,50.48,Wallet,WhatsApp,102,0.21,False
-user_8140,42,36,6,1724.99,UPI,SMS,101,0.34,False
-user_5205,1,0,1,2669.51,Debit Card,SMS,275,0.81,False
-user_2141,24,16,8,971.78,Credit Card,WhatsApp,109,0.28,False
-user_1890,47,24,23,4109.56,Debit Card,WhatsApp,102,0.48,False
-user_1469,86,84,2,2869.39,Credit Card,WhatsApp,353,0.53,False
-user_6467,57,35,22,260.92,Credit Card,WhatsApp,187,0.46,False
-user_1139,109,60,49,1803.32,Debit Card,Push Notification,252,0.58,True
-user_5060,92,54,38,3799.61,Net Banking,Email,197,0.39,False
-user_3257,2,1,1,4363.79,Net Banking,WhatsApp,183,0.4,True
-user_2374,87,60,27,1627.5,Net Banking,WhatsApp,89,0.35,False
-user_8919,41,24,17,1981.14,UPI,WhatsApp,174,0.44,False
-user_9432,109,63,46,4830.91,Credit Card,Email,144,0.48,True
-user_2581,97,93,4,3284.43,UPI,SMS,296,0.44,False
-user_7199,6,5,1,2014.74,UPI,SMS,231,0.49,True
-user_3249,115,108,7,4348.95,Net Banking,WhatsApp,178,0.41,True
-user_2997,120,114,6,3459.23,UPI,WhatsApp,322,0.47,False
-user_6288,81,55,26,3193.77,Wallet,Email,259,0.5,False
-user_3913,74,67,7,1563.6,UPI,Email,238,0.36,True
-user_2547,57,54,3,4219.59,Credit Card,Push Notification,231,0.32,False
-user_2905,10,5,5,1440.54,Net Banking,Push Notification,234,0.56,False
-user_6695,120,70,50,3113.41,UPI,Push Notification,119,0.33,False
-user_3425,40,35,5,901.77,UPI,Email,104,0.24,False
-user_2717,62,59,3,607.88,Debit Card,Push Notification,332,0.44,False
-user_2628,69,42,27,1012.11,Net Banking,Push Notification,289,0.56,True
-user_4147,68,53,15,4121.24,Credit Card,SMS,60,0.24,False
-user_9963,89,83,6,4784.02,UPI,Email,124,0.27,False
-user_2308,118,106,12,2368.63,Credit Card,SMS,133,0.27,False
-user_9427,30,15,15,625.91,Wallet,Email,165,0.53,False
-user_5638,89,78,11,1984.33,Credit Card,Email,191,0.36,False
-user_7372,58,31,27,4395.76,Credit Card,WhatsApp,54,0.27,False
-user_7126,19,15,4,3155.58,Debit Card,Email,53,0.22,False
-user_8976,49,26,23,4626.55,Net Banking,WhatsApp,91,0.29,False
-user_4107,75,49,26,3927.46,Wallet,Push Notification,3,0.33,False
-user_4350,59,50,9,4170.41,UPI,SMS,85,0.28,False
-user_4582,18,10,8,3933.13,Credit Card,WhatsApp,137,0.48,False
-user_5716,22,14,8,3511.97,Debit Card,SMS,102,0.36,False
-user_8366,88,86,2,4679.33,UPI,WhatsApp,259,0.31,False
-user_6247,55,41,14,4385.88,UPI,WhatsApp,188,0.49,True
-user_9259,119,89,30,4708.09,UPI,Email,271,0.47,False
-user_9047,4,2,2,3616.58,UPI,Email,267,0.64,False
-user_7032,97,48,49,724.27,UPI,WhatsApp,86,0.33,False
-user_6824,86,77,9,3802.05,UPI,Email,167,0.31,False
-user_5744,118,86,32,898.05,UPI,WhatsApp,110,0.3,False
-user_8377,47,35,12,4345.5,UPI,Push Notification,17,0.3,False
-user_2286,24,13,11,1492.67,Credit Card,WhatsApp,200,0.48,False
-user_6893,78,68,10,1000.12,UPI,WhatsApp,258,0.53,False
-user_8971,0,0,0,4578.53,UPI,SMS,301,0.74,True
-user_1558,55,53,2,2661.93,Debit Card,WhatsApp,348,0.47,False
-user_5243,1,0,1,2233.47,Net Banking,SMS,173,0.77,False
-user_9512,15,11,4,1120.76,UPI,WhatsApp,187,0.33,False
-user_5681,22,15,7,1606.11,Debit Card,Email,148,0.3,False
-user_2157,110,96,14,1007.34,Net Banking,SMS,284,0.46,True
-user_2338,41,21,20,4573.3,Debit Card,WhatsApp,183,0.55,True
-user_6545,0,0,0,3506.9,Wallet,SMS,219,0.76,False
-user_1320,32,21,11,1169.23,Net Banking,Email,85,0.41,False
-user_9924,37,27,10,2384.42,Wallet,WhatsApp,108,0.4,False
-user_8248,7,6,1,1970.25,Net Banking,WhatsApp,168,0.36,False
-user_8126,71,70,1,3690.3,Debit Card,Email,216,0.35,False
-user_9812,72,66,6,4301.69,Credit Card,SMS,298,0.45,False
-user_5970,105,95,10,4470.29,Debit Card,WhatsApp,5,0.1,False
-user_1284,9,4,5,3169.63,UPI,WhatsApp,18,0.26,True
-user_6095,74,70,4,540.71,Debit Card,Email,223,0.35,False
-user_1680,88,69,19,2065.15,UPI,Email,55,0.25,False
-user_5606,83,42,41,2521.08,Net Banking,SMS,350,0.62,False
-user_4862,50,43,7,1622.31,UPI,SMS,4,0.1,False
-user_3475,63,38,25,2488.3,UPI,WhatsApp,241,0.49,False
-user_6110,93,87,6,995.68,Debit Card,Email,149,0.25,False
-user_9068,44,39,5,2754.18,Wallet,WhatsApp,44,0.13,False
-user_6750,66,51,15,1091.5,Debit Card,Push Notification,314,0.56,True
-user_6793,119,63,56,4460.02,Credit Card,WhatsApp,347,0.71,False
-user_7464,82,72,10,4257.53,UPI,Email,120,0.22,False
-user_9158,78,70,8,1396.22,UPI,WhatsApp,8,0.05,False
-user_7167,93,75,18,1755.76,Wallet,SMS,46,0.3,False
-user_9489,89,73,16,4381.07,Net Banking,Email,45,0.19,True
-user_8545,8,7,1,4808.17,UPI,Email,56,0.26,False
-user_6748,78,59,19,3059.96,UPI,Push Notification,302,0.55,False
-user_8498,70,38,32,952.59,UPI,SMS,191,0.54,False
-user_2292,96,61,35,4252.74,UPI,Push Notification,106,0.38,False
-user_3596,57,38,19,3313.91,Net Banking,Email,249,0.53,False
-user_6940,103,89,14,1065.16,Net Banking,WhatsApp,311,0.45,True
-user_9408,44,38,6,3864.28,Credit Card,WhatsApp,250,0.44,False
-user_8506,86,65,21,3487.61,UPI,SMS,341,0.62,False
-user_4674,117,62,55,1014.94,Wallet,WhatsApp,278,0.52,True
-user_2844,17,9,8,100.05,UPI,Push Notification,206,0.55,False
-user_5930,14,12,2,2888.41,Credit Card,Email,57,0.12,False
-user_3539,29,21,8,2149.17,UPI,WhatsApp,263,0.41,True
-user_1796,13,6,7,2992.63,Debit Card,WhatsApp,40,0.3,False
-user_1543,32,30,2,598.5,Credit Card,Email,63,0.21,False
-user_9990,5,2,3,2631.71,Wallet,Email,195,0.53,False
-user_7778,109,89,20,729.83,Credit Card,Email,349,0.63,False
-user_7076,5,3,2,2721.66,UPI,Email,215,0.56,False
-user_1228,21,18,3,475.03,Debit Card,Push Notification,305,0.56,False
-user_3415,114,80,34,3958.52,UPI,WhatsApp,260,0.5,False
-user_8197,67,54,13,2424.93,UPI,WhatsApp,299,0.47,False
-user_9200,48,31,17,3959.31,Credit Card,Email,286,0.62,False
-user_4798,100,98,2,1571.36,Credit Card,WhatsApp,332,0.38,False
-user_4394,87,83,4,307.31,Net Banking,WhatsApp,26,0.12,False
+user_4098,112,68,44,3270.42,Net Banking,WhatsApp,277,0.52,False
+user_4049,26,19,7,3885.69,Debit Card,SMS,191,0.42,False
+user_3909,58,47,11,3078.23,UPI,SMS,109,0.34,False
+user_5582,84,63,21,2876.39,UPI,Push Notification,319,0.57,False
+user_4027,88,85,3,3698.49,UPI,SMS,234,0.34,True
+user_9182,54,42,12,3481.13,UPI,WhatsApp,168,0.37,False
+user_6295,1,0,1,2393.27,Credit Card,WhatsApp,239,0.74,False
+user_1175,120,113,7,4353.17,Net Banking,Push Notification,275,0.43,True
+user_8431,47,26,21,1232.29,UPI,SMS,289,0.69,False
+user_9522,65,51,14,1191.17,Debit Card,Push Notification,314,0.57,False
+user_4019,65,44,21,4454.9,Net Banking,WhatsApp,102,0.27,False
+user_8343,74,46,28,1646.37,Debit Card,Push Notification,198,0.51,False
+user_8678,38,33,5,4988.5,Debit Card,Email,133,0.32,False
+user_9369,103,93,10,1596.05,Net Banking,Email,78,0.19,False
+user_5451,14,9,5,4687.85,Wallet,WhatsApp,258,0.45,False
+user_9300,56,50,6,167.52,Net Banking,WhatsApp,173,0.27,False
+user_1966,10,6,4,398.12,UPI,Push Notification,46,0.4,False
+user_9038,0,0,0,3775.02,Debit Card,SMS,159,0.82,False
+user_7790,92,49,43,3482.5,Credit Card,Push Notification,271,0.65,False
+user_5065,75,44,31,2544.39,Credit Card,WhatsApp,160,0.38,False
+user_7378,64,52,12,159.91,Debit Card,SMS,278,0.55,False
+user_7099,41,31,10,3391.85,Credit Card,Email,194,0.35,False
+user_5178,111,101,10,2821.14,UPI,SMS,200,0.42,False
+user_9347,15,7,8,2795.34,UPI,WhatsApp,284,0.68,False
+user_8918,47,32,15,1633.31,UPI,WhatsApp,143,0.45,False
+user_7109,8,7,1,2195.14,Wallet,SMS,146,0.26,False
+user_4488,109,77,32,4911.85,UPI,Email,361,0.67,False
+user_7505,80,65,15,2500.92,Debit Card,WhatsApp,141,0.34,False
+user_1373,49,30,19,2085.78,UPI,SMS,263,0.62,False
+user_8233,61,35,26,328.45,UPI,Push Notification,120,0.4,False
+user_5009,32,26,6,4521.7,Wallet,Push Notification,97,0.24,False
+user_8730,18,16,2,1269.94,UPI,WhatsApp,156,0.23,False
+user_2161,53,28,25,2530.0,Debit Card,Email,29,0.32,False
+user_7717,102,94,8,4848.23,Wallet,SMS,299,0.45,False
+user_5246,119,68,51,618.79,UPI,Email,222,0.48,False
+user_9334,70,41,29,2713.88,UPI,Email,161,0.38,False
+user_7393,50,42,8,3376.92,UPI,WhatsApp,67,0.23,False
+user_9972,26,16,10,2502.19,Credit Card,SMS,130,0.35,False
+user_6122,72,59,13,3621.13,UPI,WhatsApp,107,0.29,False
+user_9870,116,85,31,1344.05,UPI,WhatsApp,166,0.36,False
+user_4041,75,65,10,1941.96,Debit Card,SMS,335,0.5,False
+user_7706,7,5,2,2252.74,UPI,WhatsApp,310,0.58,False
+user_4432,118,80,38,2350.33,Credit Card,WhatsApp,209,0.53,False
+user_8088,58,55,3,4720.75,Credit Card,Email,344,0.42,False
+user_6247,65,53,12,4443.63,UPI,WhatsApp,199,0.38,False
+user_1291,5,4,1,1247.96,UPI,Push Notification,358,0.52,False
+user_2221,89,71,18,1435.62,UPI,SMS,289,0.41,False
+user_1769,86,72,14,1399.67,Wallet,Email,67,0.16,True
+user_4573,61,39,22,3789.65,Debit Card,Push Notification,242,0.55,False
+user_3186,56,39,17,1470.6,Credit Card,WhatsApp,248,0.42,False
+user_7846,29,24,5,280.52,Credit Card,Email,214,0.35,False
+user_5698,87,69,18,595.14,Debit Card,Push Notification,109,0.34,True
+user_3870,12,9,3,4170.59,UPI,Email,165,0.29,False
+user_2150,101,66,35,53.3,Net Banking,Email,9,0.17,False
+user_4407,90,87,3,3085.3,UPI,Email,265,0.49,False
+user_1647,99,75,24,3141.89,UPI,SMS,144,0.37,False
+user_1905,50,44,6,2216.87,Credit Card,Email,270,0.44,False
+user_7914,8,4,4,1957.12,UPI,WhatsApp,297,0.63,True
+user_3494,119,80,39,3124.83,Credit Card,Email,52,0.36,True
+user_8313,29,21,8,4616.34,Wallet,SMS,120,0.37,False
+user_8098,53,30,23,3438.9,UPI,Email,192,0.55,True
+user_1928,67,58,9,1526.88,Credit Card,WhatsApp,40,0.21,False
+user_3132,92,78,14,524.87,Credit Card,Push Notification,309,0.51,False
+user_3641,115,83,32,3025.15,Credit Card,WhatsApp,258,0.47,False
+user_7668,14,10,4,1183.35,UPI,WhatsApp,361,0.56,False
+user_8987,22,21,1,3040.84,Debit Card,Email,292,0.52,False
+user_5672,21,11,10,1036.69,Debit Card,Email,210,0.55,False
+user_3891,58,54,4,4323.41,Credit Card,SMS,214,0.42,True
+user_1110,98,64,34,1423.3,Debit Card,SMS,47,0.34,False
+user_6873,120,115,5,2406.44,UPI,Email,82,0.13,False
+user_5312,110,74,36,3634.82,Wallet,Email,280,0.63,False
+user_8533,83,76,7,4348.36,Wallet,WhatsApp,42,0.09,False
+user_5936,37,20,17,3068.13,Debit Card,SMS,48,0.43,False
+user_8413,116,105,11,3766.67,Credit Card,Email,299,0.45,False
+user_1537,84,58,26,788.04,UPI,Email,183,0.43,False
+user_4880,105,83,22,474.76,Wallet,Push Notification,104,0.21,False
+user_9253,81,71,10,1780.45,UPI,WhatsApp,175,0.36,False
+user_4764,109,60,49,4585.91,UPI,WhatsApp,36,0.35,False
+user_3276,81,68,13,2969.3,UPI,SMS,199,0.37,False
+user_9097,34,33,1,561.92,Debit Card,Email,234,0.43,False
+user_6605,61,36,25,3200.87,Credit Card,Email,148,0.4,False
+user_2998,26,18,8,634.73,UPI,WhatsApp,93,0.4,False
+user_7585,102,56,46,782.96,UPI,SMS,206,0.46,False
+user_6035,93,63,30,4618.7,UPI,Email,194,0.37,False
+user_6637,14,8,6,4223.31,UPI,SMS,362,0.58,False
+user_7332,62,44,18,100.89,Debit Card,Email,180,0.41,True
+user_8792,43,42,1,3862.79,Debit Card,WhatsApp,296,0.33,True
+user_9154,45,36,9,4964.18,UPI,WhatsApp,214,0.5,False
+user_7669,28,18,10,2490.1,UPI,Email,179,0.47,False
+user_4641,3,1,2,3433.5,UPI,SMS,244,0.66,False
+user_9570,103,87,16,2922.85,Debit Card,WhatsApp,183,0.35,True
+user_7691,63,54,9,1756.57,UPI,Email,169,0.4,False
+user_8082,28,25,3,4473.36,Credit Card,WhatsApp,25,0.21,False
+user_3575,110,101,9,286.4,UPI,SMS,363,0.61,False
+user_3314,115,62,53,1208.08,UPI,WhatsApp,272,0.52,False
+user_3825,31,19,12,4777.06,Credit Card,Email,231,0.53,False
+user_7313,33,19,14,1694.57,Credit Card,Push Notification,152,0.4,False
+user_9617,82,78,4,586.2,UPI,WhatsApp,140,0.32,False
+user_1725,13,7,6,4861.08,Debit Card,Email,320,0.55,False
+user_8886,65,37,28,2411.42,Debit Card,SMS,50,0.26,False
+user_1146,79,78,1,748.1,Credit Card,WhatsApp,169,0.27,False
+user_7203,92,77,15,2881.78,UPI,Email,299,0.57,False
+user_4732,37,27,10,3833.04,UPI,WhatsApp,156,0.39,False
+user_6125,111,58,53,3316.9,Net Banking,Push Notification,167,0.57,False
+user_7753,42,26,16,2542.4,Net Banking,Email,156,0.47,False
+user_1925,18,15,3,1761.98,Wallet,WhatsApp,272,0.42,False
+user_8555,120,114,6,2274.91,Wallet,SMS,338,0.42,False
+user_9669,94,58,36,2788.48,UPI,WhatsApp,152,0.44,False
+user_4684,82,72,10,2259.33,Debit Card,Email,17,0.21,True
+user_3974,17,15,2,327.13,Credit Card,SMS,57,0.12,False
+user_1293,54,29,25,788.44,Net Banking,Push Notification,64,0.41,False
+user_4947,85,57,28,4931.99,Credit Card,WhatsApp,152,0.41,False
+user_1864,23,13,10,3489.67,Debit Card,WhatsApp,298,0.52,False
+user_3643,63,34,29,985.11,UPI,WhatsApp,139,0.53,False
+user_7972,96,54,42,4462.4,Wallet,Email,222,0.45,False
+user_6366,30,26,4,1662.83,Credit Card,Email,144,0.38,False
+user_5985,68,39,29,1120.52,UPI,WhatsApp,139,0.42,False
+user_2379,7,5,2,3607.68,Credit Card,WhatsApp,358,0.56,False
+user_3475,48,31,17,3834.41,Credit Card,SMS,279,0.49,False
+user_8487,89,66,23,1997.31,UPI,Email,76,0.31,False
+user_5263,75,44,31,1907.83,Debit Card,Email,180,0.55,False
+user_3259,111,61,50,1905.86,Debit Card,WhatsApp,351,0.73,True
+user_6239,20,14,6,4045.09,Credit Card,WhatsApp,109,0.29,False
+user_8063,44,24,20,1762.81,Debit Card,Email,343,0.63,False
+user_3530,59,42,17,4026.75,Wallet,WhatsApp,74,0.33,False
+user_2801,92,77,15,2286.15,UPI,Email,261,0.41,True
+user_4736,56,55,1,3909.3,UPI,WhatsApp,145,0.36,False
+user_3084,78,76,2,160.68,Wallet,Email,65,0.26,False
+user_3600,91,53,38,4352.91,Credit Card,Email,238,0.47,False
+user_7108,37,34,3,741.95,Credit Card,Email,333,0.5,False
+user_5833,87,44,43,2479.11,Net Banking,WhatsApp,116,0.38,True
+user_6634,27,14,13,2918.21,Credit Card,Push Notification,95,0.4,False
+user_5588,83,42,41,771.74,UPI,WhatsApp,141,0.54,False
+user_5799,92,53,39,67.63,UPI,WhatsApp,305,0.68,False
+user_6667,76,63,13,3272.05,UPI,Email,67,0.2,False
+user_8765,69,50,19,3303.2,UPI,Email,343,0.66,False
+user_4109,39,22,17,3723.36,Debit Card,Email,129,0.51,False
+user_6665,48,38,10,4325.29,Debit Card,Push Notification,244,0.5,False
+user_9360,97,75,22,1633.29,Credit Card,Push Notification,341,0.63,False
+user_2501,113,66,47,3168.71,Debit Card,Push Notification,44,0.22,False
+user_8729,25,14,11,2010.25,Debit Card,Email,174,0.43,False
+user_2067,39,26,13,2466.15,Debit Card,WhatsApp,166,0.37,False
+user_2680,65,59,6,2789.01,Credit Card,Push Notification,128,0.27,False
+user_8133,35,34,1,1755.83,Credit Card,Push Notification,233,0.31,False
+user_9747,6,5,1,4287.91,UPI,WhatsApp,243,0.44,False
+user_3014,82,62,20,4807.52,Wallet,WhatsApp,14,0.29,False
+user_6819,45,34,11,4231.49,Credit Card,SMS,264,0.58,False
+user_7855,19,12,7,4011.38,Wallet,SMS,134,0.39,True
+user_7888,51,36,15,1678.77,UPI,WhatsApp,219,0.42,False
+user_9816,65,32,33,1149.39,UPI,SMS,255,0.6,False
+user_1907,109,65,44,1763.26,Net Banking,Push Notification,299,0.52,False
+user_7568,118,93,25,4164.37,Credit Card,WhatsApp,118,0.33,True
+user_6709,76,70,6,1928.77,Net Banking,WhatsApp,191,0.38,False
+user_5113,91,59,32,3982.98,UPI,Push Notification,134,0.36,True
+user_2462,42,29,13,4837.76,Credit Card,Push Notification,125,0.45,False
+user_4421,89,51,38,1911.45,UPI,Push Notification,158,0.45,False
+user_4647,62,51,11,4452.07,Credit Card,WhatsApp,39,0.2,True
+user_3086,96,89,7,307.26,Credit Card,Push Notification,66,0.21,False
+user_7781,18,13,5,4370.38,Debit Card,WhatsApp,27,0.3,False
+user_4941,61,47,14,3308.21,Credit Card,SMS,63,0.27,False
+user_1522,31,22,9,2830.15,Debit Card,WhatsApp,235,0.42,False
+user_5659,48,25,23,1693.64,UPI,SMS,1,0.2,False
+user_8444,112,94,18,3032.5,Net Banking,WhatsApp,223,0.42,False
+user_5119,40,22,18,1706.36,UPI,Email,89,0.37,False
+user_6338,111,68,43,3250.39,UPI,Email,252,0.46,False
+user_6396,2,1,1,3350.53,UPI,SMS,137,0.4,False
+user_1884,37,24,13,4740.68,Debit Card,Push Notification,208,0.49,True
+user_9219,117,94,23,2894.73,Net Banking,Email,338,0.51,True
+user_2790,13,12,1,516.7,UPI,Email,311,0.42,False
+user_7944,7,5,2,3764.15,Net Banking,Email,283,0.48,False
+user_3722,78,43,35,1805.46,Debit Card,WhatsApp,216,0.54,False
+user_4050,36,33,3,527.32,UPI,WhatsApp,250,0.35,False
+user_5916,74,63,11,4029.07,Debit Card,Push Notification,310,0.44,False
+user_1268,30,21,9,3413.7,Net Banking,WhatsApp,316,0.63,False
+user_6432,78,69,9,1359.99,UPI,Push Notification,24,0.25,False
+user_7053,15,13,2,3084.18,Wallet,SMS,57,0.29,False
+user_6561,48,32,16,1606.32,UPI,Email,193,0.44,False
+user_8888,96,69,27,4157.7,UPI,Email,106,0.23,True
+user_9046,57,31,26,1083.83,Credit Card,Email,107,0.45,False
+user_3316,3,1,2,677.37,UPI,WhatsApp,354,0.66,False
+user_9635,49,27,22,207.5,UPI,WhatsApp,313,0.65,False
+user_5191,61,51,10,1769.46,Credit Card,WhatsApp,96,0.29,False
+user_8443,26,18,8,662.51,Debit Card,Email,16,0.16,False
+user_1201,53,35,18,2464.06,Credit Card,WhatsApp,302,0.62,False
+user_6957,29,20,9,2349.43,Wallet,WhatsApp,17,0.32,False
+user_2130,67,57,10,2078.09,Debit Card,Email,344,0.61,False
+user_1023,16,13,3,3374.7,Credit Card,WhatsApp,286,0.5,False
+user_3601,28,26,2,363.61,Debit Card,WhatsApp,157,0.39,False
+user_5581,28,23,5,1828.44,Debit Card,Email,215,0.41,False
+user_2608,41,28,13,1677.92,UPI,Email,30,0.24,False
+user_3714,4,3,1,3693.08,UPI,WhatsApp,343,0.52,False
+user_9894,119,106,13,975.53,UPI,WhatsApp,352,0.48,False
+user_7490,88,60,28,555.96,Net Banking,WhatsApp,18,0.26,False
+user_6541,95,82,13,4023.91,Debit Card,WhatsApp,351,0.54,False
+user_3312,16,13,3,4261.41,Wallet,Email,195,0.32,False
+user_9269,103,89,14,1854.76,Debit Card,Push Notification,116,0.21,True
+user_6311,28,14,14,3863.51,Credit Card,WhatsApp,217,0.6,False
+user_2404,60,39,21,4930.61,Credit Card,SMS,354,0.63,False
+user_5766,11,10,1,540.51,Credit Card,Push Notification,254,0.44,False
+user_3056,68,40,28,2421.09,Debit Card,Email,211,0.48,False
+user_9991,57,56,1,589.07,Net Banking,WhatsApp,108,0.32,True
+user_5643,27,25,2,2675.35,UPI,Email,197,0.32,True
+user_8751,104,85,19,879.83,UPI,WhatsApp,251,0.38,False
+user_7128,89,65,24,330.65,Debit Card,Push Notification,7,0.16,False
+user_7068,68,64,4,3817.7,Wallet,WhatsApp,304,0.42,False
+user_5725,48,31,17,3588.07,Credit Card,Email,32,0.34,False
+user_4619,84,57,27,4303.36,UPI,Email,117,0.33,True
+user_9974,13,12,1,1811.6,UPI,WhatsApp,173,0.36,False
+user_9850,22,11,11,1491.19,UPI,WhatsApp,338,0.75,True
+user_9978,55,46,9,2375.48,UPI,WhatsApp,285,0.54,False
+user_6554,65,44,21,2612.83,Credit Card,Email,85,0.39,False
+user_7321,57,38,19,2407.82,UPI,WhatsApp,160,0.38,False
+user_3207,76,54,22,2591.78,Credit Card,WhatsApp,115,0.31,False
+user_3547,37,19,18,144.54,UPI,Push Notification,172,0.53,False
+user_5197,104,86,18,4878.05,Wallet,SMS,124,0.33,True
+user_9863,94,68,26,3531.12,Net Banking,WhatsApp,90,0.26,False
+user_8690,1,0,1,3105.35,Net Banking,Email,4,0.58,False
+user_8411,44,41,3,1325.15,Debit Card,WhatsApp,120,0.35,False
+user_9986,99,54,45,2315.08,Net Banking,Email,13,0.32,False
+user_6628,86,62,24,783.74,Debit Card,Push Notification,113,0.28,True
+user_3623,78,49,29,2513.56,UPI,Email,186,0.37,False
+user_6325,27,25,2,3970.58,UPI,WhatsApp,155,0.24,False
+user_4000,107,89,18,4106.12,UPI,WhatsApp,22,0.18,False
+user_5540,46,38,8,2589.44,Debit Card,WhatsApp,233,0.41,False
+user_5718,40,22,18,91.12,Credit Card,SMS,85,0.47,True
+user_4652,106,101,5,216.24,UPI,SMS,238,0.43,False
+user_2410,12,6,6,3659.22,Debit Card,Email,128,0.41,False
+user_5990,29,20,9,4720.43,Net Banking,WhatsApp,14,0.22,False
+user_8613,107,76,31,305.26,Net Banking,Email,227,0.52,False
+user_5261,38,25,13,4030.92,UPI,SMS,360,0.59,True
+user_8049,91,89,2,1777.35,Credit Card,WhatsApp,171,0.28,False
+user_9776,69,60,9,3152.45,Debit Card,WhatsApp,152,0.32,False
+user_5069,51,40,11,4373.56,Debit Card,Email,64,0.25,False
+user_8996,116,68,48,4277.15,Credit Card,Email,30,0.29,False
+user_1207,87,76,11,3451.69,Credit Card,WhatsApp,108,0.2,False
+user_5979,62,45,17,1870.33,Credit Card,Push Notification,353,0.51,False
+user_2755,39,23,16,2759.15,Net Banking,SMS,235,0.48,False
+user_9367,91,50,41,3515.26,Credit Card,Email,253,0.58,False
+user_9848,3,1,2,3194.75,UPI,Email,123,0.5,False
+user_3717,14,8,6,4477.3,Debit Card,SMS,66,0.34,False
+user_9265,80,61,19,519.43,Credit Card,WhatsApp,211,0.39,False
+user_3398,47,30,17,2443.27,Credit Card,Email,168,0.42,False
+user_6115,76,73,3,4380.8,UPI,WhatsApp,309,0.48,False
+user_3474,45,26,19,2794.16,Credit Card,WhatsApp,39,0.34,False
+user_6402,59,58,1,3468.74,Credit Card,Email,107,0.14,True
+user_1414,18,11,7,996.11,Net Banking,Email,335,0.65,False
+user_3124,93,66,27,4128.64,Debit Card,WhatsApp,209,0.51,True
+user_1477,16,8,8,3374.57,UPI,WhatsApp,276,0.58,True
+user_7270,80,60,20,2837.05,Wallet,Push Notification,206,0.46,False
+user_1493,68,66,2,4788.73,UPI,WhatsApp,109,0.18,True
+user_2796,42,32,10,136.09,Debit Card,Email,212,0.46,False
+user_6537,62,57,5,887.45,UPI,WhatsApp,182,0.35,True
+user_2711,112,71,41,2801.84,Net Banking,WhatsApp,190,0.44,False
+user_1433,8,5,3,1893.99,Debit Card,Email,172,0.39,False
+user_4111,65,46,19,1856.6,Wallet,WhatsApp,34,0.28,False
+user_4484,112,97,15,2259.91,UPI,Email,120,0.32,True
+user_6894,53,34,19,4831.19,Credit Card,WhatsApp,353,0.69,False
+user_2573,17,12,5,1992.65,Net Banking,WhatsApp,355,0.53,False
+user_6065,117,89,28,4560.15,UPI,Push Notification,121,0.27,False
+user_2972,50,36,14,99.98,UPI,Push Notification,282,0.61,False
+user_7476,83,77,6,4515.72,Credit Card,WhatsApp,14,0.06,False
+user_6103,56,37,19,1162.68,Credit Card,WhatsApp,9,0.2,False
+user_7940,99,92,7,426.45,Debit Card,WhatsApp,138,0.36,False
+user_7788,85,60,25,2615.65,Debit Card,Push Notification,263,0.45,True
+user_9565,57,54,3,2829.8,Credit Card,WhatsApp,232,0.35,False
+user_2851,118,95,23,2685.28,Credit Card,WhatsApp,252,0.47,False
+user_4363,37,28,9,1752.72,UPI,Push Notification,108,0.22,False
+user_6253,105,74,31,1083.39,Net Banking,Email,229,0.51,False
+user_3004,40,33,7,2934.35,Wallet,SMS,236,0.4,False
+user_8302,57,47,10,2465.33,Debit Card,WhatsApp,15,0.14,False
+user_5202,39,35,4,3753.51,UPI,Push Notification,194,0.35,False
+user_7866,43,32,11,3598.78,Credit Card,WhatsApp,296,0.47,True
+user_7355,30,29,1,149.22,Net Banking,WhatsApp,334,0.48,False
+user_9353,49,40,9,1669.35,UPI,WhatsApp,352,0.56,False
+user_8656,113,103,10,1262.87,Credit Card,WhatsApp,132,0.19,False
+user_1305,36,24,12,1100.75,Debit Card,WhatsApp,241,0.5,False
+user_3065,91,71,20,1967.53,Wallet,SMS,320,0.54,False
+user_2770,48,42,6,3849.71,UPI,SMS,250,0.44,False
+user_3432,66,64,2,3334.14,Credit Card,Push Notification,56,0.23,False
+user_1169,83,57,26,3489.03,Credit Card,SMS,129,0.27,False
+user_6993,25,19,6,4430.74,Debit Card,Email,226,0.48,True
+user_8885,31,28,3,4508.75,Debit Card,Email,134,0.38,True
+user_1524,18,14,4,1161.6,Credit Card,Push Notification,296,0.61,False
+user_6526,13,12,1,955.43,Wallet,Email,250,0.45,False
+user_2056,33,29,4,2123.46,Debit Card,WhatsApp,55,0.18,False
+user_4805,120,69,51,4858.24,Debit Card,Email,213,0.57,True
+user_4689,119,103,16,3235.43,Wallet,WhatsApp,152,0.37,True
+user_1135,23,16,7,4452.0,Debit Card,Email,232,0.4,False
+user_2035,8,5,3,4141.39,UPI,Push Notification,152,0.37,True
+user_2489,32,19,13,2342.5,UPI,SMS,157,0.42,False
+user_4344,29,23,6,257.12,UPI,SMS,0,0.21,True
+user_2810,79,48,31,3307.72,Credit Card,WhatsApp,173,0.53,False
+user_4722,19,13,6,2289.54,Debit Card,Email,327,0.57,False
+user_9649,23,20,3,4877.01,Credit Card,WhatsApp,226,0.43,True
+user_4761,50,49,1,2182.73,Debit Card,Email,117,0.26,False
+user_5230,97,78,19,3059.76,Credit Card,WhatsApp,299,0.49,False
+user_9088,88,61,27,3166.91,Debit Card,Email,314,0.54,False
+user_6683,103,84,19,4339.91,Credit Card,WhatsApp,268,0.39,True
+user_7539,43,42,1,4741.08,UPI,Push Notification,361,0.55,True
+user_5408,69,44,25,1974.34,Credit Card,Email,179,0.41,False

@@ -192,11 +192,20 @@ def planner_node(state: AgentState):
     # If no messages exist yet, construct the system prompt injecting the metadata
     messages = state.get("messages", [])
     if not messages:
+        prob = state.get('recovery_probability', 0.0)
+        urgency = 'HIGH' if prob < 0.4 else ('MEDIUM' if prob < 0.7 else 'LOW')
         sys_msg = HumanMessage(content=f"""
 You are an autonomous AI Revenue Recovery Agent.
 A revenue loss event has occurred.
 Mode: {state['revenue_loss_mode']}
 Metadata: {json.dumps(state['metadata'])}
+Recovery Probability (combined event + user history score): {prob:.3f}
+Urgency Level: {urgency}
+
+Use the recovery probability to calibrate your strategy:
+- HIGH urgency (prob < 0.4): Use aggressive tactics — discounts, immediate WhatsApp outreach, alternate payment methods.
+- MEDIUM urgency (0.4-0.7): Use balanced tactics — payment link + email sequence.
+- LOW urgency (prob > 0.7): Light touch — simple reminder is enough.
 
 Your job is to draft a recovery pipeline using the available tools. 
 Analyze the failure and call the necessary tools sequentially or in parallel.

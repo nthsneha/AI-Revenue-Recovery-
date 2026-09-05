@@ -35,6 +35,7 @@ def run_demo():
             "metadata": {},
             "revenue_loss_mode": "",
             "is_viable": False,
+            "recovery_probability": 0.0,
             "messages": []
         }
         

@@ -1,0 +1,33 @@
+Category,Error Code / Reason,Description & Mechanical Cause
+Common / API,BAD_REQUEST_ERROR,"Request URL not found, invalid API key, missing parameters, or unauthorized access."
+Common / API,SERVER_ERROR,Internal Razorpay server error (HTTP 500) or service temporarily unavailable (HTTP 503).
+Common / API,GATEWAY_ERROR,Request failed due to an error at the downstream bank or payment gateway (HTTP 502).
+Payments / Cards,authentication_failed,"3D Secure or OTP failed (user cancelled, closed browser, or entered wrong OTP)."
+Payments / Cards,payment_timed_out,Customer exceeded the standard time limit (typically 10 minutes) for payment processing.
+Payments / Cards,payment_cancelled,Customer cancelled the transaction or pressed the back button during processing.
+Payments / Cards,bank_technical_error,Issuing bank's Core Banking System encountered technical downtime while processing.
+Payments / Cards,insufficient_funds,The issuer declined the transaction due to a lack of available funds in the account.
+Payments / Cards,incorrect_cvv,Customer entered an incorrect CVV during the checkout process.
+Payments / Cards,card_expired,The credit/debit card used has passed its expiration date.
+Payments / Cards,debit_instrument_blocked,The card has been blocked by the issuing bank or by the customer.
+Payments / Cards,transaction_limit_exceeded,The customer has reached their card's daily transaction or withdrawal limit.
+Payments / Cards,card_not_enrolled,The card is not enrolled for the specific payment method requested.
+Payments / Cards,card_network_not_enabled,"The specific card network (e.g., Visa, Mastercard) is not enabled for the merchant account."
+UPI,vpa_resolution_failed,The network failed to process the transaction using the provided Virtual Payment Address (VPA).
+UPI,daily_limit_exceeded,Customer exceeded the maximum transaction volume/limit set by their bank for UPI.
+UPI,bank_cutoff_in_progress,The bank's daily Core Banking System cutoff and reconciliation is actively running.
+UPI,bank_not_live_on_upi,The selected bank is not currently enabled or active on the UPI network.
+BBPS (Bill Pay),aadhaar_not_linked,Customer's Aadhaar is not linked to their account with the specific biller.
+BBPS (Bill Pay),adhoc_payment_not_supported,"The biller does not accept direct payments without a prior successful ""fetch bill"" request."
+BBPS (Bill Pay),bill_expired,The bill details used are stale or the bill's due date has elapsed.
+BBPS (Bill Pay),biller_fee_mismatch,The Convenience Fee in the payment request doesn't match the fetched bill's required fee.
+BBPS (Bill Pay),duplicate_request,A request with the same idempotency key has already been processed by the system.
+BBPS (Bill Pay),customer_migrated_to_different_biller,The customer's utility/biller account has been migrated to a different provider.
+POS (Point of Sale),PGIP000007,"Order not found, expired, or missing."
+POS (Point of Sale),PGIP000018,"Payment gateway unreachable, timeout, or no response from the gateway."
+POS (Point of Sale),PGIP000019,The customer entered an incorrect PIN on the POS terminal.
+POS (Point of Sale),PGIP000020,PIN attempts exceeded.
+POS (Point of Sale),PGIP000030,Insufficient funds (Issuer decline).
+POS (Point of Sale),PGIP000031,Expired card (Issuer decline).
+POS (Point of Sale),PGIP000033,Exceeded usage or withdrawal limit on the card.
+POS (Point of Sale),PGIP000047,EMV Chip card decline (Authorization worked but gateway confirmation failed).

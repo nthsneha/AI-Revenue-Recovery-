@@ -2,6 +2,7 @@ import os
 import pickle
 import json
 from typing import TypedDict, Annotated, Sequence
+from langgraph.graph.message import add_messages
 from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.graph import StateGraph, START, END
@@ -20,7 +21,7 @@ class AgentState(TypedDict):
     revenue_loss_mode: str
     is_viable: bool
     recovery_probability: float
-    messages: Annotated[Sequence[BaseMessage], "add_messages"]
+    messages: Annotated[Sequence[BaseMessage], add_messages]   
 
 # -----------------
 # 2. Pydantic Models for Phase 1
@@ -40,7 +41,7 @@ class TriageOutput(BaseModel):
 # -----------------
 
 # Initialize Gemini
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite")
 
 def triage_node(state: AgentState):
     """Phase 1: Parse unstructured log into structured data."""
@@ -188,9 +189,10 @@ llm_with_tools = llm.bind_tools(my_tools.ALL_TOOLS)
 def planner_node(state: AgentState):
     """Phase 3: The LLM plans the recovery strategy and calls tools."""
     print("--- [NODE: Orchestrator / Planner] ---")
-    
-    # If no messages exist yet, construct the system prompt injecting the metadata
+
     messages = state.get("messages", [])
+    new_messages = []
+
     if not messages:
         prob = state.get('recovery_probability', 0.0)
         urgency = 'HIGH' if prob < 0.4 else ('MEDIUM' if prob < 0.7 else 'LOW')
@@ -207,15 +209,17 @@ Use the recovery probability to calibrate your strategy:
 - MEDIUM urgency (0.4-0.7): Use balanced tactics — payment link + email sequence.
 - LOW urgency (prob > 0.7): Light touch — simple reminder is enough.
 
-Your job is to draft a recovery pipeline using the available tools. 
+Your job is to draft a recovery pipeline using the available tools.
 Analyze the failure and call the necessary tools sequentially or in parallel.
 When you are done recovering the revenue, just say 'RECOVERY PIPELINE COMPLETE'.
 """)
         messages = [sys_msg]
-        
-    response = llm_with_tools.invoke(messages)
-    return {"messages": [response]}
+        new_messages.append(sys_msg)
 
+    response = llm_with_tools.invoke(messages)
+    new_messages.append(response)
+
+    return {"messages": new_messages}
 
 # Phase 4: Executor Node (Native LangGraph ToolNode)
 executor_node = ToolNode(my_tools.ALL_TOOLS)

@@ -9,6 +9,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-RUN python models/viability_model.py
+EXPOSE 8501
 
-CMD ["python", "main.py"]
+CMD ["streamlit", "run", "dashboard.py", \
+     "--server.address", "0.0.0.0", \
+     "--server.port", "8501", \
+     "--server.headless", "true"]

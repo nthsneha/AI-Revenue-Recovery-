@@ -6,3 +6,4 @@ scikit-learn
 xgboost
 pydantic
 python-dotenv
+streamlit
